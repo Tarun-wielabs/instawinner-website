@@ -17,7 +17,7 @@ export default function Home() {
         <Header />
       </div>
       <div className="relative flex justify-center items-center">
-        <div className="w-2/3 h-full absolute left-0 top-0 rounded-tr-[50%] -z-[1] bg-[#F3EEC6]" />
+        <div className="md:w-3/4 w-full h-full absolute left-0 top-0 rounded-tr-full -z-[1] bg-[#F3EEC6]" />
         <Hero />
       </div>
       <div className=" flex justify-center items-center">

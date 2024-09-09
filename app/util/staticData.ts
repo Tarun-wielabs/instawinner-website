@@ -9,6 +9,7 @@ import {
   storesIcon3,
   storesIcon4,
   storesIcon5,
+  reviewImage1,
 } from "./images";
 
 const howItWorks = [
@@ -109,4 +110,37 @@ const list = [
   },
 ];
 
-export { howItWorks, stores, list };
+const reviews = [
+  {
+    pfp: reviewImage1,
+    heading: "Hannah Schmitt",
+    subHeading: "Lead designer",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus",
+  },
+  {
+    pfp: reviewImage1,
+    heading: "Hannah Schmitt",
+    subHeading: "Lead designer",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus",
+  },
+  {
+    pfp: reviewImage1,
+    heading: "Hannah Schmitt",
+    subHeading: "Lead designer",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus",
+  },
+  {
+    pfp: reviewImage1,
+    heading: "Hannah Schmitt",
+    subHeading: "Lead designer",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus",
+  },
+  {
+    pfp: reviewImage1,
+    heading: "Hannah Schmitt",
+    subHeading: "Lead designer",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus",
+  },
+];
+
+export { howItWorks, stores, list, reviews };

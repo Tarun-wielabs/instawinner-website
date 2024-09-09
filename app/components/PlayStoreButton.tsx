@@ -15,21 +15,21 @@ export default function PlayStoreButton({ scheme }: buttonProps) {
         scheme === "dark"
           ? "bg-black text-white shadow-none"
           : "bg-white text-black shadow-[#0000002A]"
-      } shadow-2xl flex items-center justify-center gap-2 rounded-xl px-5 py-2`}
+      } shadow-2xl flex items-center justify-center gap-2 rounded-lg  md:px-5 px-3 md:py-2 py-1`}
     >
-      <Image src={playStore} alt="apple" className="h-8 w-8 " />
+      <Image src={playStore} alt="apple" className=" md:h-6 h-4 md:w-6 w-4  " />
       <div className="flex flex-col justify-center items-start">
         <span
           className={`${mulish.className} ${
             scheme === "dark" ? "font-bold" : "font-extrabold"
-          } tracking-tight leading-[15px] label-small`}
+          } tracking-tight  label-small`}
         >
           Get it on
         </span>
         <span
           className={`${mulish.className} ${
             scheme === "dark" ? "font-bold" : "font-extrabold"
-          } tracking-tighter leading-[32px] headline-small`}
+          } tracking-tighter  md:title-medium title-small`}
         >
           Play Store
         </span>

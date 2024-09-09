@@ -15,25 +15,25 @@ export default function AppStoreButton({ scheme }: buttonProps) {
         scheme === "dark"
           ? "bg-black text-white shadow-none"
           : "bg-white text-black shadow-[#0000002A]"
-      } shadow-lg flex items-center justify-center gap-2 rounded-xl px-5 py-2`}
+      } shadow-lg flex items-center justify-center gap-2 rounded-lg md:px-5 px-3 md:py-2 py-1`}
     >
       <Image
         src={scheme === "dark" ? appleWhite : appleBlack}
         alt="apple"
-        className="h-8 w-8 "
+        className=" md:h-6 h-4 md:w-6 w-4 "
       />
       <div className="flex flex-col justify-center items-start">
         <span
           className={`${mulish.className} ${
             scheme === "dark" ? "font-bold" : "font-extrabold"
-          } tracking-tight leading-[15px] label-small`}
+          } tracking-tight label-small`}
         >
-          Download on the
+          Download on
         </span>
         <span
           className={`${mulish.className} ${
             scheme === "dark" ? "font-bold" : "font-extrabold"
-          } tracking-tighter leading-[32px] headline-small`}
+          } tracking-tighter md:title-medium title-small`}
         >
           App Store
         </span>

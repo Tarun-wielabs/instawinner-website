@@ -14,20 +14,20 @@ function InfoSection({ title, body, open, index, setOpen }: InfoSectionProps) {
   return (
     <div
       onClick={() => setOpen((i) => (index === i ? -1 : index))}
-      className="cursor-pointer flex flex-col xl:w-[40%] lg:w-[50%] md:w-[60%] sm:w-[70%] w-[80%] bg-white rounded-lg "
+      className="cursor-pointer flex flex-col xl:w-[60%] lg:w-[70%] md:w-[80%] sm:w-[90%] w-full bg-white rounded-lg "
     >
       <div
         className={`${
           !open && "border-b border-b-gray-300"
-        } flex justify-between items-center w-full p-5 gap-2 transition-all`}
+        } flex justify-between items-center w-full md:p-5 p-3 gap-2 transition-all`}
       >
         <span
-          className={`${titilliumWebSemiBold.className} text-gray-950 leading-[28px] title-large`}
+          className={`${titilliumWebSemiBold.className} text-gray-950 lg:leading-[28px] lg:title-large md:title-medium title-small`}
         >
           {title}
         </span>
         <button
-          className={` flex justify-center items-center font-[400] text-[24px] cursor-pointer transition-all h-[24px] w-[24px]`}
+          className={` flex justify-center items-center  transition-all lg:h-[24px] h-[16px] lg:w-[24px] w-[16px]`}
         >
           {open ? (
             <svg
@@ -71,7 +71,7 @@ function InfoSection({ title, body, open, index, setOpen }: InfoSectionProps) {
             animate={{ opacity: 1, translateY: "0" }}
             exit={{ opacity: 0, translateY: "-10%" }}
             transition={{ duration: 0.1 }}
-            className={`${mulish.className} body-large leading-[24px] text-gray-500 w-full p-5 border-b border-b-gray-300 pt-0 tracking-tight`}
+            className={`${mulish.className} lg:body-large body-medium lg:leading-[24px] text-gray-500 w-full md:p-5 p-3 border-b border-b-gray-300 pt-0 tracking-tight`}
           >
             {body}
           </motion.div>
