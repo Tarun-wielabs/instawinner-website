@@ -28,10 +28,17 @@ const titilliumWebBold = localFont({
   variable: "--font-titillium-bold",
   weight: "700",
 });
+
 const titilliumWebBlack = localFont({
   src: "../../public//fonts/TitilliumWeb-Black.ttf",
   variable: "--font-titillium-bold",
   weight: "900",
+});
+
+const rubik = localFont({
+  src: "../../public//fonts/Rubik-Medium.ttf",
+  variable: "--font-rubik",
+  weight: "500",
 });
 
 export {
@@ -41,4 +48,5 @@ export {
   titilliumWebSemiBold,
   titilliumWebBold,
   titilliumWebBlack,
+  rubik,
 };

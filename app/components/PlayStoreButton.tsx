@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { playStore } from "../util/images";
-import { mulish } from "../util/fonts";
+import { rubik } from "../util/fonts";
 
 type buttonProps = {
   scheme: "dark" | "light";
@@ -12,24 +12,22 @@ export default function PlayStoreButton({ scheme }: buttonProps) {
     <Link
       href=""
       className={`${
-        scheme === "dark"
-          ? "bg-black text-white shadow-none"
-          : "bg-white text-black shadow-[#0000002A]"
-      } shadow-2xl flex items-center justify-center gap-2 rounded-lg  md:px-5 px-3 md:py-2 py-1`}
+        scheme === "dark" ? "bg-black text-white" : "bg-white text-black "
+      } shadow-2xl flex items-center justify-center gap-2 rounded-xl px-4 py-2`}
     >
-      <Image src={playStore} alt="apple" className=" md:h-6 h-4 md:w-6 w-4  " />
+      <Image src={playStore} alt="apple" className=" h-6 w-6 " />
       <div className="flex flex-col justify-center items-start">
         <span
-          className={`${mulish.className} ${
+          className={`${rubik.className} ${
             scheme === "dark" ? "font-bold" : "font-extrabold"
-          } tracking-tight  label-small`}
+          } label-small leading-none`}
         >
           Get it on
         </span>
         <span
-          className={`${mulish.className} ${
+          className={`${rubik.className} ${
             scheme === "dark" ? "font-bold" : "font-extrabold"
-          } tracking-tighter  md:title-medium title-small`}
+          }  title-large lg:leading-[25px] leading-none tracking-tight`}
         >
           Play Store
         </span>
