@@ -1,33 +1,31 @@
 import Image from "next/image";
 import { mulish, titilliumWebBold, titilliumWebSemiBold } from "../util/fonts";
-import { countImage1, countImage2, countImage3 } from "../util/images";
+import { countImage1, countImage2 } from "../util/images";
 
 export default function Count() {
   return (
-    <div className="lg:w-[80%] md:w-[90%] w-full flex lg:flex-row flex-col gap-5 justify-around items-center md:px-10 px-5 pb-10">
-      <div className="lg:w-1/2 w-full flex flex-col  justify-center md:gap-5 gap-3">
-        <div className="flex w-full md:gap-10 gap-2 ">
-          <Image
-            src={countImage1}
-            alt="img1"
-            className="md:-translate-y-[30px] sm:-translate-y-[20px] -translate-y-[10px] 2xl:w-80 xl:w-52 sm:w-48 w-36 max-w-[45%] h-auto"
-          />
-          <Image
-            src={countImage2}
-            alt="img2"
-            className="object-top object-contain 2xl:w-80 xl:w-52 sm:w-48 w-36 max-w-[45%] h-auto"
-          />
-        </div>
-
+    <div className="md:w-[90%] w-full flex lg:flex-row flex-col md:gap-10 gap-5 justify-around items-center md:px-10 px-5 pb-10">
+      <div className=" lg:w-1/2 w-full flex items-center lg:justify-center md:gap-5 gap-3">
         <Image
+          src={countImage1}
+          alt="img1"
+          className=" 2xl:w-80 xl:w-52 sm:w-48 w-44 max-w-[45%] h-auto"
+        />
+        <Image
+          src={countImage2}
+          alt="img2"
+          className="object-top object-contain 2xl:w-80 xl:w-52 sm:w-48 w-44 max-w-[45%] h-auto"
+        />
+
+        {/* <Image
           src={countImage3}
           alt="img3"
           className="lg:block hidden 2xl:w-80 xl:w-52 sm:w-48 w-36 max-w-[45%] h-auto"
-        />
+        /> */}
       </div>
-      <div className="flex flex-col justify-evenly lg:gap-10 gap-5 lg:w-1/3 w-full">
-        <div className="flex 2xl:gap-16 xl:gap-10 gap-5 items-center">
-          <div className="flex flex-col lg:gap-5 items-center">
+      <div className="flex flex-col justify-evenly lg:gap-10 gap-5 pt-5 lg:w-5/12 w-full">
+        <div className="flex 2xl:gap-16 gap-10 items-center">
+          <div className="flex flex-col lg:gap-5 ">
             <span
               className={`${titilliumWebBold.className} xl:text-[80px] lg:display-large display-medium text-gray-950 xl:leading-[124px] lg:leading-[100px]`}
             >
@@ -39,7 +37,7 @@ export default function Count() {
               Stores
             </span>
           </div>
-          <div className="flex flex-col lg:gap-5 items-center">
+          <div className="flex flex-col lg:gap-5 ">
             <span
               className={`${titilliumWebBold.className} xl:text-[80px] lg:display-large display-medium text-gray-950 xl:leading-[124px] lg:leading-[100px]`}
             >

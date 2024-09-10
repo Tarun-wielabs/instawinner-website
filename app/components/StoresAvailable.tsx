@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 export default function StoresAvailable() {
   return (
     <div className=" w-full h-auto flex flex-col gap-10 justify-center items-center py-16 md:px-10 px-5">
-      <span className="lg:display-medium md:headline-large headline-medium lg:leading-[52px] text-center w-full text-white">
+      <span className="lg:display-medium display-small lg:leading-[52px] text-center w-full text-white">
         4,000+ <br className="md:hidden block" /> stores available
       </span>
       <Marquee autoFill>

@@ -31,14 +31,14 @@ export default function Cards() {
         prevEl: ".swiper-button-prev",
       }}
       modules={[EffectCards, Navigation, Pagination, Autoplay]}
-      className="xl:w-[650px] lg:w-[500px] md:w-[380px] w-[75vw]"
+      className="xl:w-[650px] lg:w-[500px] md:w-[380px] w-[75vw] "
       initialSlide={2}
     >
       {reviews.map((obj, index) => {
         return (
           <SwiperSlide
             key={index}
-            className="rounded-2xl bg-gray-100 md:px-10 px-5 py-5 shadow-xl"
+            className="rounded-2xl bg-gray-100 md:px-10 px-5 py-5 shadow-xl mb-10"
             style={{ width: "100%", height: "auto" }}
           >
             <div className="flex flex-col items-center gap-2">

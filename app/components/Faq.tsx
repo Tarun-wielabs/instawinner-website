@@ -6,7 +6,7 @@ export default function Faq() {
   return (
     <div
       id="faq"
-      className={`md:px-10 px-5 py-10 h-auto w-full flex flex-col justify-evenly items-center md:gap-5 gap-1`}
+      className={`md:px-10 px-5 py-10 h-auto w-full flex flex-col justify-evenly items-center md:gap-5 gap-3`}
     >
       <span
         className={`lg:leading-[52px] lg:display-medium display-small text-gray-950 text-center`}

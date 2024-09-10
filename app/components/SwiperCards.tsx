@@ -18,8 +18,8 @@ export default function SwiperCards() {
           amet, consectetur adipiscing elit
         </span>
       </div>
-      <div className="relative flex justify-center items-center md:px-10 px-5 py-10 lg:gap-20 md:gap-10 gap-5 lg:mt-0 mt-5 w-full overflow-hidden">
-        <div className="xl:scale-100 scale-75 w-[565px] h-[520px] absolute lg:left-[40%] md:left-[20%] left-[0%] -top-[10%] -z-[1] to-[#F7413D] from-[#FE7977] bg-gradient-to-b clip-blob" />
+      <div className="relative flex justify-center items-center md:px-10 px-5 py-10  gap-5 lg:mt-0 mt-5 w-full ">
+        <div className="xl:scale-100 scale-75 w-[565px] h-[520px] absolute lg:left-[50%] md:left-[20%] left-[0%] -top-[10%] -z-[1] to-[#F7413D] from-[#FE7977] bg-gradient-to-b clip-blob" />
         <button className="md:flex hidden swiper-button-prev bg-white h-12 w-12 justify-center items-center rounded-full shadow-lg">
           <Image src={backIcon} alt="back" />
         </button>

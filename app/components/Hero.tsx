@@ -4,7 +4,7 @@ import { mulish, titilliumWebBlack } from "../util/fonts";
 
 export default function Hero() {
   return (
-    <div className="lg:w-[80%] md:w-[90%] w-full h-autos flex md:flex-row flex-col md:justify-between items-center relative md:px-10 px-5 py-10 gap-10">
+    <div className="lg:w-[80%] md:w-[90%] w-full h-autos flex md:flex-row flex-col-reverse md:justify-between items-center relative md:px-10 px-5 py-10 gap-10">
       <div className="flex flex-col lg:gap-5 gap-3">
         <span
           className={`${titilliumWebBlack.className} lg:display-large display-medium  lg:leading-[64px] leading-tight text-black`}
@@ -14,7 +14,7 @@ export default function Hero() {
           Promotions
         </span>
         <span
-          className={`${mulish.className} lg:body-large body-medium  2xl:w-[500px] lg:w-[400px] w-full font-normal text-[#6D6D6D] lg:leading-[24px] -tracking-tight`}
+          className={`${mulish.className} lg:body-large body-medium  2xl:w-[500px] lg:w-[400px] w-[90%] font-normal text-[#6D6D6D] lg:leading-[24px] -tracking-tight`}
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum
           dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit
