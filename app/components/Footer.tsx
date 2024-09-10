@@ -3,7 +3,7 @@ import { mulish } from "../util/fonts";
 
 export default function Footer() {
   return (
-    <footer className="w-full sm:flex-row flex-col md:px-10 px-5 py-10 bg-gray-950 flex justify-between items-center gap-5">
+    <footer className="w-full sm:flex-row flex-col md:px-10 px-5 md:py-10 py-5 bg-gray-950 flex justify-between items-center gap-5">
       <span
         className={`${mulish.className} text-gray-50 lg:leading-[20px] md:body-medium body-small tracking-tight`}
       >

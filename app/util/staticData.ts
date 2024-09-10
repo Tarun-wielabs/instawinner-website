@@ -40,7 +40,7 @@ const howItWorks = [
   },
 ];
 
-const stores = [
+const stores1 = [
   {
     icon: storesIcon1,
     text: "Layers",
@@ -61,6 +61,9 @@ const stores = [
     icon: storesIcon5,
     text: "Quotient",
   },
+];
+
+const stores2 = [
   {
     icon: storesIcon4,
     text: "Catalog",
@@ -143,4 +146,4 @@ const reviews = [
   },
 ];
 
-export { howItWorks, stores, list, reviews };
+export { howItWorks, stores1, stores2, list, reviews };

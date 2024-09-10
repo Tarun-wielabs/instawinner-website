@@ -3,7 +3,7 @@ import { logo } from "../util/images";
 import { titilliumWebSemiBold } from "../util/fonts";
 import AppStoreButton from "./AppStoreButton";
 import PlayStoreButton from "./PlayStoreButton";
-import Hamburger from "./_header/Hamburger";
+// import Hamburger from "./_header/Hamburger";
 
 export default function Header() {
   return (
@@ -15,7 +15,7 @@ export default function Header() {
         <Image
           src={logo}
           alt="instawinner"
-          className="lg:w-[48px] md:w-[32px] w-[16px] lg:h-[48px] md:h-[32px] h-[16px] "
+          className="lg:w-[48px] md:w-[32px] w-[24px] lg:h-[48px] md:h-[32px] h-[24px] "
         />
         <span
           className={`${titilliumWebSemiBold.className} leading-[54px] text-gray-950 lg:display-small md:headline-medium headline-small `}
@@ -27,7 +27,7 @@ export default function Header() {
         <AppStoreButton scheme="dark" />
         <PlayStoreButton scheme="dark" />
       </div>
-      <Hamburger />
+      {/* <Hamburger /> */}
     </header>
   );
 }

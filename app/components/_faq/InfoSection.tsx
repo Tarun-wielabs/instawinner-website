@@ -22,12 +22,12 @@ function InfoSection({ title, body, open, index, setOpen }: InfoSectionProps) {
         } flex justify-between items-center w-full md:p-5 p-3 gap-2 transition-all`}
       >
         <span
-          className={`${titilliumWebSemiBold.className} text-gray-950 lg:leading-[28px] lg:title-large md:title-medium title-small`}
+          className={`${titilliumWebSemiBold.className} text-gray-950 lg:leading-[28px] lg:title-large title-medium`}
         >
           {title}
         </span>
         <button
-          className={` flex justify-center items-center  transition-all lg:h-[24px] h-[16px] lg:w-[24px] w-[16px]`}
+          className={` flex justify-center items-center  transition-all lg:h-[24px] h-[20px] lg:w-[24px] w-[20px]`}
         >
           {open ? (
             <svg

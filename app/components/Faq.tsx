@@ -9,12 +9,12 @@ export default function Faq() {
       className={`md:px-10 px-5 py-10 h-auto w-full flex flex-col justify-evenly items-center md:gap-5 gap-1`}
     >
       <span
-        className={`lg:leading-[52px] lg:display-medium md:headline-medium headline-small text-gray-950 text-center`}
+        className={`lg:leading-[52px] lg:display-medium display-small text-gray-950 text-center`}
       >
         Frequently Asked Questions
       </span>
       <span
-        className={`${titilliumWebSemiBold.className} lg:leading-[28px] lg:title-large md:title-medium title-small text-gray-500 text-center`}
+        className={`${titilliumWebSemiBold.className} lg:leading-[28px] lg:title-large title-medium  text-gray-500 text-center`}
       >
         Everything you need to know about the product and billing.
       </span>

@@ -4,10 +4,10 @@ import { mulish, titilliumWebSemiBold } from "../util/fonts";
 
 export default function About() {
   return (
-    <div className="xl:w-[80%] md:w-[90%] w-full lg:flex-row flex-col-reverse h-auto gap-10 flex justify-between  items-center relative p-10">
+    <div className="xl:w-[80%] md:w-[90%] w-full lg:flex-row flex-col-reverse h-auto gap-10 flex justify-between lg:items-center relative md:px-10 px-5 py-10">
       <div className="flex flex-col md:gap-5 lg:w-1/2 w-full">
         <span
-          className={` ${titilliumWebSemiBold.className} lg:title-large md:text-medium text-small lg:leading-[28px] text-gray-950`}
+          className={` ${titilliumWebSemiBold.className} lg:title-large text-medium lg:leading-[28px] text-gray-950`}
         >
           About
         </span>
@@ -23,8 +23,8 @@ export default function About() {
           dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit
           amet, consectetur adipiscing elit
         </span>
-        <div className="flex gap-5 justify-between md:mt-0 mt-5 ">
-          <div className="flex flex-col md:gap-5 w-5/12">
+        <div className="flex sm:flex-row flex-col gap-5 justify-between md:mt-0 mt-5 ">
+          <div className="flex flex-col md:gap-5 gap-2 sm:w-5/12">
             <Image src={cube} alt="cube" />
             <span
               className={`${titilliumWebSemiBold.className} lg:title-large title-medium lg:leading-[28px] text-gray-950`}
@@ -38,7 +38,7 @@ export default function About() {
               ipsum dolor sit amet, consectetur adipiscing{" "}
             </span>
           </div>
-          <div className="flex flex-col md:gap-5 w-5/12">
+          <div className="flex flex-col md:gap-5 gap-2 sm:w-5/12">
             <Image src={cube} alt="cube" />
             <span
               className={`${titilliumWebSemiBold.className} lg:title-large title-medium lg:leading-[28px] text-gray-950`}

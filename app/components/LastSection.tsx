@@ -27,7 +27,7 @@ export default function LastSection() {
         <AppStoreButton scheme="dark" />
         <PlayStoreButton scheme="dark" />
       </div>
-      <div className="flex md:gap-5 gap-3 items-center">
+      <div className="flex md:gap-5 gap-3 items-center md:mt-0 mt-5">
         <Image src={facebookIcon} alt="facebook" />
         <Image src={instagramIcon} alt="instagram" />
         <Image src={linkedinIcon} alt="linkedin" />
