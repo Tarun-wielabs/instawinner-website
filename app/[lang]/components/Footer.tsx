@@ -7,7 +7,7 @@ export default function Footer() {
       <span
         className={`${mulish.className} text-gray-50 lg:leading-[20px] md:body-medium body-small tracking-tight`}
       >
-        © 2024 InstaWinner. All Rights Reserved
+        © 2024 InstaWin. All Rights Reserved
       </span>
       <div className="flex items-center justify-center gap-5">
         <span
