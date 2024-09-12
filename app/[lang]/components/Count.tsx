@@ -75,7 +75,7 @@ export default function Count({ count }: countProps) {
             <input
               type="submit"
               value={count["button-text"]}
-              className={`uppercase ${mulish.className} lg:leading-[20px] bg-[#F7413D] lg:p-1 text-gray-50 lg:label-large label-medium w-1/3 shadow-xl`}
+              className={`uppercase ${mulish.className} cursor-pointer lg:leading-[20px] bg-[#F7413D] lg:p-1 text-gray-50 lg:label-large label-medium w-1/3 shadow-xl`}
             />
           </div>
         </div>

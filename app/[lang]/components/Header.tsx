@@ -35,11 +35,11 @@ export default function Header({ header, lang }: headerProps) {
         </span>
       </div>
       <div className="flex items-center gap-5">
+        <LanguageSelector lang={lang} />
         <div className="md:flex hidden items-center gap-5">
           <AppStoreButton scheme="dark" />
           <PlayStoreButton scheme="dark" />
         </div>
-        <LanguageSelector lang={lang} />
       </div>
 
       {/* <Hamburger /> */}

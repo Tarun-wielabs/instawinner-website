@@ -10,16 +10,16 @@ export default function Footer() {
         © 2024 InstaWin. All Rights Reserved
       </span>
       <div className="flex items-center justify-center gap-5">
-        <span
+        <button
           className={`${mulish.className} lg:body-large md:body-medium body-small text-gray-50 tracking-tight lg:leading-[24px]`}
         >
           Terms & Conditions
-        </span>
-        <span
+        </button>
+        <button
           className={`${mulish.className} lg:body-large md:body-medium body-small text-gray-50 tracking-tight lg:leading-[24px]`}
         >
           Policies
-        </span>
+        </button>
       </div>
     </footer>
   );

@@ -8,6 +8,7 @@ import {
   logo,
   xIcon,
 } from "../../../util/images";
+import Link from "next/link";
 
 type lastSectionProps = {
   lastSection: {
@@ -37,10 +38,18 @@ export default function LastSection({ lastSection }: lastSectionProps) {
         <PlayStoreButton scheme="dark" />
       </div>
       <div className="flex md:gap-5 flex-wrap gap-3 items-center md:mt-0 mt-5">
-        <Image src={facebookIcon} alt="facebook" />
-        <Image src={instagramIcon} alt="instagram" />
-        <Image src={linkedinIcon} alt="linkedin" />
-        <Image src={xIcon} alt="x" />
+        <Link href="" target="_blank">
+          <Image src={facebookIcon} alt="facebook" />
+        </Link>
+        <Link href="" target="_blank">
+          <Image src={instagramIcon} alt="instagram" />
+        </Link>
+        <Link href="" target="_blank">
+          <Image src={linkedinIcon} alt="linkedin" />
+        </Link>
+        <Link href="" target="_blank">
+          <Image src={xIcon} alt="x" />
+        </Link>
       </div>
     </div>
   );

@@ -11,6 +11,7 @@ export default function AppStoreButton({ scheme }: buttonProps) {
   return (
     <Link
       href=""
+      target="_blank"
       className={`${
         scheme === "dark" ? "bg-black text-white" : "bg-white text-black"
       } shadow-xl flex items-center justify-center gap-2 rounded-xl px-4 py-2`}
