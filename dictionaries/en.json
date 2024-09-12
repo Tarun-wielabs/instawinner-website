@@ -1,0 +1,158 @@
+{
+  "header": {
+    "title-normal": "Insta",
+    "title-colored": "win"
+  },
+  "hero": {
+    "heading-colored": "Win",
+    "heading-normal": "Instant Prizes!",
+    "body": "The app where you instantly win prizes just by scanning the receipt of your favorite products from participating stores!"
+  },
+  "count": {
+    "text1": "Participating stores",
+    "text2": "Participating products",
+    "label-input": "Contact us, we're here to help you!",
+    "input-placeholder": "Email address",
+    "button-text": "let's chat"
+  },
+  "about": {
+    "title": "About",
+    "heading": "With instawin, you always win!",
+    "sub-heading": "When you purchase participating products at your favorite store, you'll always win one of the prizes! Just scan your receipt after buying the participating product or products!",
+    "section1": {
+      "heading": "Instant prices",
+      "body": "Scan your receipt for participating products in the InstaWin app, and you'll know immediately if you've won one of the instant prizes."
+    },
+    "section2": {
+      "heading": "Raffle prizes",
+      "body": "Scan your receipt for participating products in the InstaWin app and find out instantly if you've won a ticket to enter the prize raffle, which will take place on the date specified in each promotion."
+    },
+    "button-text": "Download Now"
+  },
+  "how-it-works": {
+    "heading": "It's the easiest way to participate in promotions and win",
+    "content": [
+      {
+        "heading": "1 . Download the App for Free",
+        "body": "Available on the Apple App Store and Google Play Store."
+      },
+      {
+        "heading": "2 . Discover Promotions by Product or Participating Store",
+        "body": "If you select your favorite product, you can find out which stores carry it for a chance to win. If you choose by store, you'll see which products are on promotion at that location."
+      },
+      {
+        "heading": "3 . Purchase Your Product at the Store",
+        "body": "When you make a purchase, don't forget to ask for your receipt."
+      },
+      {
+        "heading": "4 .  Scan Your Receipt",
+        "body": "You can scan your receipt directly in the app or take a photo and select it from your gallery. For online purchase receipts, you can choose a screenshot of your digital receipt."
+      },
+      {
+        "heading": "5 . Scratch and WIN!",
+        "body": "By scratching the screen with your finger, you'll instantly discover what prize you've won. You could receive an immediate prize or a raffle ticket to participate in a raffle for a chance to win. The prizes are randomly assigned."
+      }
+    ]
+  },
+  "download-now": {
+    "text-styled": "Download InstaWin!",
+    "text-normal": "Start getting chances to win the prizes your favourite brands have for you!"
+  },
+  "swiper-cards": {
+    "heading": "Meet winners with InstaWin",
+    "reviews": [
+      {
+        "name": "Santi . B",
+        "below-name": "Winner!",
+        "body": "I won a gift card to my favorite store thanks to InstaWin. It's great to be able to scan my receipt and instantly know if I've won something. The app has made my shopping much more fun and rewarding. Highly recommended!"
+      },
+      {
+        "name": "Santi . B",
+        "below-name": "Winner!",
+        "body": "I won a gift card to my favorite store thanks to InstaWin. It's great to be able to scan my receipt and instantly know if I've won something. The app has made my shopping much more fun and rewarding. Highly recommended!"
+      },
+      {
+        "name": "Santi . B",
+        "below-name": "Winner!",
+        "body": "I won a gift card to my favorite store thanks to InstaWin. It's great to be able to scan my receipt and instantly know if I've won something. The app has made my shopping much more fun and rewarding. Highly recommended!"
+      },
+      {
+        "name": "Santi . B",
+        "below-name": "Winner!",
+        "body": "I won a gift card to my favorite store thanks to InstaWin. It's great to be able to scan my receipt and instantly know if I've won something. The app has made my shopping much more fun and rewarding. Highly recommended!"
+      },
+      {
+        "name": "Santi . B",
+        "below-name": "Winner!",
+        "body": "I won a gift card to my favorite store thanks to InstaWin. It's great to be able to scan my receipt and instantly know if I've won something. The app has made my shopping much more fun and rewarding. Highly recommended!"
+      }
+    ]
+  },
+  "stores-available": {
+    "heading-count": "5+",
+    "heading-text": "stores available",
+    "stores1": [
+      {
+        "name": "Walmart"
+      },
+      {
+        "name": "Fiesta Mart"
+      },
+      {
+        "name": "LA Metro"
+      },
+      {
+        "name": "Oxxo"
+      }
+    ],
+    "stores2": [
+      {
+        "name": "7 Eleven"
+      },
+      {
+        "name": "Honda"
+      },
+      {
+        "name": "La Botanera"
+      },
+      {
+        "name": "El Super"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "sub-heading": "Everything you need to know about the product and billing.",
+    "qna": [
+      {
+        "title": "Is InstaWin app free?",
+        "body": "Yes, the InstaWin app is completely free to download and use! There are no hidden fees or charges to participate in our promotions. Simply download the app from the Apple Store or Play Store, and start scanning your receipts to win prizes."
+      },
+      {
+        "title": "How does InstaWin work?",
+        "body": "InstaWin allows you to scan your receipt from participating products or stores to instantly discover if you've won a prize or a raffle ticket for a chance to win bigger prizes. Simply download the app, scan your receipt, and see your results immediately!"
+      },
+      {
+        "title": "What kind of prizes can I win with InstaWin?",
+        "body": "InstaWin offers a two types of prizes, including instant rewards like gift cards, electronics, products, and more. You can also win raffle tickets for a chance to enter drawings for larger prizes, such as vacations, concert tickets, or high-value items."
+      },
+      {
+        "title": "Do I have to make a purchase to participate?",
+        "body": "Yes, to participate in InstaWin, you need to purchase a product that is part of a participating promotion. Make sure to ask for your receipt and scan it using the InstaWin app to find out if you've won."
+      },
+      {
+        "title": "Can I use the same receipt more than once?",
+        "body": "No, each receipt can only be scanned once in the InstaWin app. After scanning, the receipt is marked as used, and you cannot re-enter it into the system."
+      },
+      {
+        "title": "When are raffle winners announced?",
+        "body": "The raffle winners are announced on the date specified in each promotion. The raffles will be held live, and the winner will be notified during the event. Additionally, you will receive a notification in the app if you win, so be sure to check your notifications regularly."
+      }
+    ]
+  },
+  "last-section": {
+    "heading-normal": "Win with",
+    "heading-styled": "Every Purchase!",
+    "sub-heading": "And it's free - download on both"
+  }
+}

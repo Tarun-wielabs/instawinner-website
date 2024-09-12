@@ -1,0 +1,158 @@
+{
+  "header": {
+    "title-normal": "Insta",
+    "title-colored": "win"
+  },
+  "hero": {
+    "heading-colored": "¡GANA",
+    "heading-normal": "Premios al Instante!",
+    "body": "!La app con la que ganas premios al instante solo escaneando el recibo de compra de tus productos favoritos en las tiendas participantes!"
+  },
+  "count": {
+    "text1": "Tiendas participantes",
+    "text2": "Productos participantes",
+    "label-input": "¡Contáctanos, estamos para ayudarte!",
+    "input-placeholder": "Email address",
+    "button-text": "charlemos"
+  },
+  "about": {
+    "title": "Acerca de",
+    "heading": "¡CON INSTAWIN, SIEMPRE GANAS!",
+    "sub-heading": "Cuando compras productos participantes en tu tienda favorita, ¡siempre ganarás uno de los premios! ¡Solo escanea tu recibo después de comprar el producto o productos participantes!",
+    "section1": {
+      "heading": "Premios al instante",
+      "body": "Escanea tu recibo de los productos participantes en la app de InstaWin y sabrás de inmediato si has ganado uno de los premios instantáneos."
+    },
+    "section2": {
+      "heading": "Premios por sorteo",
+      "body": "Escanea tu recibo de los productos participantes en la app de InstaWin y descubre al instante si has ganado un boleto para participar en el sorteo de premios, que se llevará a cabo en la fecha indicada en cada promoción."
+    },
+    "button-text": "¡Descarga ahora!"
+  },
+  "how-it-works": {
+    "heading": "Es la forma más fáscil para participar en promciones y ganar",
+    "content": [
+      {
+        "heading": "1 . Descarga la App de Forma Gratuita",
+        "body": "Disponible en la tienda de aplicaciones Apple Store y Play Store."
+      },
+      {
+        "heading": "2 . Descubre Promociones por Producto o por Tienda Participante",
+        "body": "Si seleccionas tu producto favorito podrás saber en que tiendas comprarlo para ganar. Si seleccionas por tienda, podrás saber que productos tienen promoción en en ese establecimiento."
+      },
+      {
+        "heading": "3 . Adquiere Tu Producto en la Tienda",
+        "body": "Al comprar, no olvides pedir tu recibo de compra."
+      },
+      {
+        "heading": "4 .  Escanea Tu Recibo",
+        "body": "Puedes escanear tu recibo directamente en la app o tomar una foto y seleccionar la imagen de tu galería. Para recibos de compras en línea, puedes elegir una captura de pantalla de tu recibo digital."
+      },
+      {
+        "heading": "5 . ¡Rasca y GANA!",
+        "body": "Al rascar la pantalla con tu dedo, descubrirás al instante qué premio has ganado. Podrías recibir un premio inmediato o un boleto para participar en una rifa con la oportunidad de ganar. Los premios se asignan al azar."
+      }
+    ]
+  },
+  "download-now": {
+    "text-styled": "¡DESCARGA InstaWin!",
+    "text-normal": "comienza a obtener oportunidades para para ganar los premios que tus marcas favoritas tienen para tí"
+  },
+  "swiper-cards": {
+    "heading": "Conoce a ganadores con InstaWin",
+    "reviews": [
+      {
+        "name": "Santi . B",
+        "below-name": "¡Ganador!",
+        "body": "Gané una tarjeta de regalo para mi tienda preferida gracias a InstaWin. Está muy padre poder escanear mi recibo y saber al instante si he ganado algo. La app ha hecho mis compras mucho más divertidas y gratificantes. ¡Altamente recomendada!"
+      },
+      {
+        "name": "Santi . B",
+        "below-name": "¡Ganador!",
+        "body": "Gané una tarjeta de regalo para mi tienda preferida gracias a InstaWin. Está muy padre poder escanear mi recibo y saber al instante si he ganado algo. La app ha hecho mis compras mucho más divertidas y gratificantes. ¡Altamente recomendada!"
+      },
+      {
+        "name": "Santi . B",
+        "below-name": "¡Ganador!",
+        "body": "Gané una tarjeta de regalo para mi tienda preferida gracias a InstaWin. Está muy padre poder escanear mi recibo y saber al instante si he ganado algo. La app ha hecho mis compras mucho más divertidas y gratificantes. ¡Altamente recomendada!"
+      },
+      {
+        "name": "Santi . B",
+        "below-name": "¡Ganador!",
+        "body": "Gané una tarjeta de regalo para mi tienda preferida gracias a InstaWin. Está muy padre poder escanear mi recibo y saber al instante si he ganado algo. La app ha hecho mis compras mucho más divertidas y gratificantes. ¡Altamente recomendada!"
+      },
+      {
+        "name": "Santi . B",
+        "below-name": "¡Ganador!",
+        "body": "Gané una tarjeta de regalo para mi tienda preferida gracias a InstaWin. Está muy padre poder escanear mi recibo y saber al instante si he ganado algo. La app ha hecho mis compras mucho más divertidas y gratificantes. ¡Altamente recomendada!"
+      }
+    ]
+  },
+  "stores-available": {
+    "heading-count": "Más de 5 ",
+    "heading-text": "tiendas disponibles",
+    "stores1": [
+      {
+        "name": "Walmart"
+      },
+      {
+        "name": "Fiesta Mart"
+      },
+      {
+        "name": "LA Metro"
+      },
+      {
+        "name": "Oxxo"
+      }
+    ],
+    "stores2": [
+      {
+        "name": "7 Eleven"
+      },
+      {
+        "name": "Honda"
+      },
+      {
+        "name": "La Botanera"
+      },
+      {
+        "name": "El Super"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Preguntas frecuentes",
+    "sub-heading": "Todo lo que necesitas saber sobre el producto y facturación.",
+    "qna": [
+      {
+        "title": "¿La app de InstaWin es gratuita?",
+        "body": "Sí, la app de InstaWin es completamente gratuita para descargar y usar. No hay tarifas ocultas ni cargos para participar en nuestras promociones. Simplemente descarga la app desde la Apple Store o Play Store y comienza a escanear tus recibos para ganar premios."
+      },
+      {
+        "title": "¿Cómo funciona InstaWin?",
+        "body": "InstaWin te permite escanear tu recibo de productos o tiendas participantes para descubrir al instante si has ganado un premio o un boleto para una rifa con la oportunidad de ganar premios mayores. Simplemente descarga la app, escanea tu recibo y ve tus resultados inmediatamente."
+      },
+      {
+        "title": "¿Qué tipo de premios puedo ganar con InstaWin?",
+        "body": "InstaWin ofrece dos tipos de premios, incluyendo recompensas instantáneas como tarjetas de regalo, electrónicos, productos y más. También puedes ganar boletos para rifas y participar en sorteos de premios más grandes, como vacaciones, entradas para conciertos, o artículos de alto valor."
+      },
+      {
+        "title": "¿Tengo que realizar una compra para participar?",
+        "body": "Sí, para participar en InstaWin, necesitas comprar un producto que forme parte de una promoción participante. Asegúrate de pedir tu recibo y escanearlo usando la app de InstaWin para saber si has ganado."
+      },
+      {
+        "title": "¿Puedo usar el mismo recibo más de una vez?",
+        "body": "No, cada recibo solo se puede escanear una vez en la app de InstaWin. Después de escanearlo, el recibo se marca como utilizado, y no se puede volver a ingresar al sistema."
+      },
+      {
+        "title": "¿Cuándo se anuncian los ganadores de las rifas?",
+        "body": "Los ganadores de las rifas se anuncian en la fecha especificada en cada promoción. Las rifas se realizarán en vivo, y el ganador será notificado durante el evento. Además, recibirás una notificación en la app si resultas ganador, así que asegúrate de revisar tus notificaciones regularmente."
+      }
+    ]
+  },
+  "last-section": {
+    "heading-normal": "¡Gana con ",
+    "heading-styled": "Cada Compra!",
+    "sub-heading": "Y es gratis: descárgalo en ambos"
+  }
+}
