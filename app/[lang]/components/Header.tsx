@@ -34,8 +34,8 @@ export default function Header({ header, lang }: headerProps) {
           <span className="text-[#F7413D]">{header["title-colored"]}</span>
         </span>
       </div>
-      <div className="flex items-center gap-5">
-        <LanguageSelector lang={lang} />
+      <div className="flex items-center gap-10">
+        <LanguageSelector lang={lang} />{" "}
         <div className="md:flex hidden items-center gap-5">
           <AppStoreButton scheme="dark" />
           <PlayStoreButton scheme="dark" />

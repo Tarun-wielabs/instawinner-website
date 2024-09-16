@@ -42,11 +42,11 @@ export default function About({ about }: aboutProps) {
         >
           {about["sub-heading"]}
         </span>
-        <div className="flex sm:flex-row flex-col gap-5 justify-between md:mt-0 mt-5 ">
+        <div className="flex sm:flex-row flex-col gap-5 justify-between mt-5 ">
           <div className="flex flex-col md:gap-5 gap-3 sm:w-5/12">
             <Image src={cube} alt="cube" />
             <span
-              className={`${titilliumWebSemiBold.className} lg:title-large title-medium lg:leading-[28px] text-gray-950`}
+              className={`${titilliumWebSemiBold.className} lg:title-large title-medium uppercase lg:leading-[28px] text-gray-950`}
             >
               {about.section1.heading}
             </span>
@@ -59,7 +59,7 @@ export default function About({ about }: aboutProps) {
           <div className="flex flex-col md:gap-5 gap-3 sm:w-5/12">
             <Image src={cube} alt="cube" />
             <span
-              className={`${titilliumWebSemiBold.className} lg:title-large title-medium lg:leading-[28px] text-gray-950`}
+              className={`${titilliumWebSemiBold.className} lg:title-large title-medium uppercase lg:leading-[28px] text-gray-950`}
             >
               {about.section2.heading}
             </span>
@@ -71,7 +71,7 @@ export default function About({ about }: aboutProps) {
           </div>
         </div>
         <button
-          className={`md:mt-0 mt-5 border w-fit border-[#F7413D] text-[#F7413D] bg-transparent px-[24px] py-[12px] capitalize ${mulish.className} font-semibold label-large lg:leading-[20px] tracking-tight`}
+          className={` mt-5 border w-fit border-[#F7413D] text-[#F7413D] bg-transparent px-[24px] py-[12px] capitalize ${mulish.className} font-semibold label-large lg:leading-[20px] tracking-tight`}
         >
           {about["button-text"]}
         </button>

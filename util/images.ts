@@ -29,7 +29,6 @@ import linkedinIcon from "@/public/icons/linkedin.svg";
 import xIcon from "@/public/icons/x.svg";
 import countImage1 from "@/public/Frame 279440.png";
 import countImage2 from "@/public/unsplash_7pCFUybP_P8.png";
-import countImage3 from "@/public/image 4.png";
 
 const howItWorksIcons = [
   howItWorksIcon1,
@@ -73,5 +72,4 @@ export {
   xIcon,
   countImage1,
   countImage2,
-  countImage3,
 };

@@ -1,7 +1,7 @@
 {
   "header": {
     "title-normal": "Insta",
-    "title-colored": "win"
+    "title-colored": "Win"
   },
   "hero": {
     "heading-colored": "Win",
@@ -17,7 +17,7 @@
   },
   "about": {
     "title": "About",
-    "heading": "With instawin, you always win!",
+    "heading": "With InstaWin, you always win!",
     "sub-heading": "When you purchase participating products at your favorite store, you'll always win one of the prizes! Just scan your receipt after buying the participating product or products!",
     "section1": {
       "heading": "Instant prices",
@@ -90,7 +90,7 @@
   },
   "stores-available": {
     "heading-count": "5+",
-    "heading-text": "stores available",
+    "heading-text": "participating stores available",
     "stores1": [
       {
         "name": "Walmart"

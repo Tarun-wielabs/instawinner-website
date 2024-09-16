@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { mulish, titilliumWebBold, titilliumWebSemiBold } from "@/util/fonts";
-import { countImage1, countImage2, countImage3 } from "@/util/images";
+import { countImage1, countImage2 } from "@/util/images";
 
 type countProps = {
   count: {
@@ -15,22 +15,16 @@ type countProps = {
 export default function Count({ count }: countProps) {
   return (
     <div className="md:w-[90%] w-full flex lg:flex-row flex-col md:gap-10 gap-5 justify-around items-center md:px-10 px-5 pb-10">
-      <div className="max-w-[900px] lg:w-1/2 w-full flex items-center flex-wrap lg:justify-center md:gap-5 gap-3">
+      <div className="max-w-[900px] lg:w-1/2 w-full flex lg:justify-center md:gap-5 gap-3">
         <Image
           src={countImage1}
           alt="img1"
-          className=" 2xl:w-80 xl:w-52 sm:w-48 w-44 max-w-[45%] h-auto"
+          className=" 2xl:w-80 xl:w-52 sm:w-48 w-44 max-w-[45%] h-auto lg:-translate-y-[10%]"
         />
         <Image
           src={countImage2}
           alt="img2"
           className="object-top object-contain 2xl:w-80 xl:w-52 sm:w-48 w-44 max-w-[45%] h-auto"
-        />
-
-        <Image
-          src={countImage3}
-          alt="img3"
-          className="lg:block hidden 2xl:w-60 xl:w-44 sm:w-40 w-36 max-w-[45%] h-auto"
         />
       </div>
       <div className="flex flex-col justify-evenly lg:gap-10 gap-5 pt-5 lg:w-5/12 w-full">
@@ -39,7 +33,7 @@ export default function Count({ count }: countProps) {
             <span
               className={`${titilliumWebBold.className} xl:text-[80px] lg:display-large display-medium text-gray-950 xl:leading-[124px] lg:leading-[100px]`}
             >
-              02
+              05
             </span>
             <span
               className={`${titilliumWebSemiBold.className} lg:headline-medium title-medium lg:leading-[36px] text-[#F7413D]`}

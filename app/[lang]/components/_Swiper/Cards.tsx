@@ -46,7 +46,7 @@ export default function Cards({ reviews }: cardsProps) {
         return (
           <SwiperSlide
             key={index}
-            className="rounded-2xl bg-gray-100 md:px-10 px-5 py-5 shadow-xl mb-10"
+            className="rounded-2xl bg-gray-100 md:px-10 px-5 py-10 shadow-xl mb-10"
             style={{ width: "100%", height: "auto" }}
           >
             <div className="flex flex-col items-center gap-2">

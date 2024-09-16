@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { surprisedWoman } from "@/util/images";
-import { mulish, titilliumWebBlack } from "@/util/fonts";
+import { titilliumWebBlack, titilliumWebSemiBold } from "@/util/fonts";
 
 type heroProps = {
   hero: {
@@ -23,7 +23,7 @@ export default function Hero({ hero }: heroProps) {
           {hero["heading-normal"]}
         </span>
         <span
-          className={`${mulish.className} lg:body-large body-medium  2xl:w-[500px] lg:w-[400px] w-[90%] font-normal text-white lg:leading-[24px] -tracking-tight`}
+          className={`${titilliumWebSemiBold.className} lg:title-large title-medium  text-black lg:leading-[28px]`}
         >
           {hero.body}
         </span>
