@@ -26,7 +26,7 @@ export default async function Home({
         <Header header={data.header} lang={lang} />
       </div>
       <div className="relative flex justify-center items-center mt-10">
-        <div className="md:w-3/4 w-full h-full absolute left-0 top-0 md:rounded-tr-full rounded-tr-[171px] scale-y-110 -z-[1] bg-[#66C3CA]" />
+        <div className="md:w-3/4 w-full h-full absolute left-0 top-0 md:rounded-tr-full rounded-tr-[171px] -z-[1] bg-[#66C3CA]" />
         <Hero hero={data.hero} />
       </div>
       <div className=" flex justify-center items-center">
