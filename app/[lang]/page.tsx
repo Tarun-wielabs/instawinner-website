@@ -32,13 +32,13 @@ export default async function Home({
       <div className=" flex justify-center items-center">
         <Count count={data.count} />
       </div>
-      <div className="flex justify-center items-center from-[#ffffff] to-[#F48626] bg-gradient-to-b">
+      <div className="flex justify-center items-center from-[#ffffff] via-[#ecb789] to-[#F48626] bg-gradient-to-b">
         <About about={data.about} />
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center bg-white">
         <HowItWorks howItWorks={data["how-it-works"]} />
       </div>
-      <div className="flex justify-center items-center  to-[#8A449A] from-[#ffffff] bg-gradient-to-b">
+      <div className="flex justify-center items-center from-white to-[#8a449aef] bg-gradient-to-b">
         <DownloadNow downloadNow={data["download-now"]} />
       </div>
       <div className="flex justify-center items-center overflow-hidden">

@@ -37,12 +37,12 @@ export default function HowItWorks({ howItWorks }: howItWorksProps) {
         <Image
           src={app1}
           alt="appImage1"
-          className="max-w-[50%] translate-x-[12%] "
+          className="max-w-[50%] translate-x-[12%] z-[1]"
         />
         <Image
           src={app2}
           alt="appImage2"
-          className="max-w-[50%] -translate-x-[12%] -z-[1]"
+          className="max-w-[50%] -translate-x-[12%]"
         />
       </div>
       <div className="flex flex-wrap justify-center md:gap-10 gap-5 content-center">

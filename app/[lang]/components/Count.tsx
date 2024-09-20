@@ -19,12 +19,12 @@ export default function Count({ count }: countProps) {
         <Image
           src={countImage1}
           alt="img1"
-          className=" 2xl:w-80 xl:w-52 sm:w-48 w-44 max-w-[45%] h-auto lg:-translate-y-[10%]"
+          className=" 2xl:w-80 xl:w-52 sm:w-48 w-44 max-w-[45%] h-auto lg:-translate-y-[10%] drop-shadow-2xl"
         />
         <Image
           src={countImage2}
           alt="img2"
-          className="object-top object-contain 2xl:w-80 xl:w-52 sm:w-48 w-44 max-w-[45%] h-auto"
+          className="object-top object-contain 2xl:w-80 xl:w-52 sm:w-48 w-44 max-w-[45%] h-auto drop-shadow-2xl"
         />
       </div>
       <div className="flex flex-col justify-evenly lg:gap-10 gap-5 pt-5 lg:w-5/12 w-full">

@@ -74,7 +74,7 @@ export default function About({ about }: aboutProps) {
       <Image
         src={smilingGuy}
         alt="smiling guy"
-        className="max-w-[700px] md:w-[40%] sm:w-[60%] w-[80%] h-auto"
+        className="max-w-[700px] md:w-[40%] sm:w-[60%] w-[80%] h-auto drop-shadow-2xl"
       />
     </div>
   );
