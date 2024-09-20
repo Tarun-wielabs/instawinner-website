@@ -1,7 +1,8 @@
 {
   "header": {
     "title-normal": "Insta",
-    "title-colored": "Win"
+    "title-colored": "Win",
+    "download": "¡Descarga ahora!"
   },
   "hero": {
     "heading-colored": "¡GANA",
@@ -12,8 +13,8 @@
     "text1": "Tiendas participantes",
     "text2": "Productos participantes",
     "label-input": "¡Contáctanos, estamos para ayudarte!",
-    "input-placeholder": "Email address",
-    "button-text": "charlemos"
+    "input-placeholder": "Tu email",
+    "button-text": "¡Enviar!"
   },
   "about": {
     "title": "Acerca de",
@@ -30,7 +31,8 @@
     "button-text": "¡Descarga ahora!"
   },
   "how-it-works": {
-    "heading": "Es la forma más fáscil para participar en promciones y ganar",
+    "heading-normal": "Es la forma más fáscil para participar en promciones y ",
+    "heading-styled": "ganar",
     "content": [
       {
         "heading": "1 . Descarga la App de Forma Gratuita",
@@ -56,10 +58,10 @@
   },
   "download-now": {
     "text-styled": "¡DESCARGA InstaWin!",
-    "text-normal": "comienza a obtener oportunidades para para ganar los premios que tus marcas favoritas tienen para tí"
+    "text-normal": "¡Empieza a ganar ahora! Descubre premios emocionantes de tus marcas favoritas."
   },
   "swiper-cards": {
-    "heading": "Conoce a ganadores con InstaWin",
+    "heading": "Conoce a Ganadores de InstaWin",
     "reviews": [
       {
         "name": "Santi . B",
@@ -84,8 +86,8 @@
     ]
   },
   "stores-available": {
-    "heading-count": "Más de 5 ",
-    "heading-text": "tiendas disponibles",
+    "heading-count": "5+ ",
+    "heading-text": "tiendas participantes",
     "stores1": [
       {
         "name": "Walmart"
@@ -146,8 +148,8 @@
     ]
   },
   "last-section": {
-    "heading-normal": "¡Gana con ",
-    "heading-styled": "Cada Compra!",
-    "sub-heading": "Y es gratis: descárgalo en ambos"
+    "heading-normal": "¡Siempre ",
+    "heading-styled": "GANA!",
+    "sub-heading": "¡Y es gratis: descárgalo ya!"
   }
 }

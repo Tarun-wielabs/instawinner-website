@@ -1,7 +1,8 @@
 {
   "header": {
     "title-normal": "Insta",
-    "title-colored": "Win"
+    "title-colored": "Win",
+    "download": "Download now!"
   },
   "hero": {
     "heading-colored": "Win",
@@ -30,7 +31,8 @@
     "button-text": "Download Now"
   },
   "how-it-works": {
-    "heading": "It's the easiest way to participate in promotions and win",
+    "heading-normal": "It's the easiest way to participate in promotions and ",
+    "heading-styled": "win",
     "content": [
       {
         "heading": "1 . Download the App for Free",
@@ -56,10 +58,10 @@
   },
   "download-now": {
     "text-styled": "Download InstaWin!",
-    "text-normal": "Start getting chances to win the prizes your favourite brands have for you!"
+    "text-normal": "Start winning now! Discover exciting prizes from the brands you love."
   },
   "swiper-cards": {
-    "heading": "Meet winners with InstaWin",
+    "heading": "Meet InstaWin Winners",
     "reviews": [
       {
         "name": "Santi . B",
@@ -146,8 +148,8 @@
     ]
   },
   "last-section": {
-    "heading-normal": "Win with",
-    "heading-styled": "Every Purchase!",
-    "sub-heading": "And it's free - download on both"
+    "heading-normal": "Always",
+    "heading-styled": "WIN!",
+    "sub-heading": "And it's free - download  now!"
   }
 }

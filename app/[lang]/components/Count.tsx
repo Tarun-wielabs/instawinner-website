@@ -29,26 +29,26 @@ export default function Count({ count }: countProps) {
       </div>
       <div className="flex flex-col justify-evenly lg:gap-10 gap-5 pt-5 lg:w-5/12 w-full">
         <div className="flex 2xl:gap-16 gap-10 items-center">
-          <div className="flex flex-col lg:gap-5 w-min">
+          <div className="flex flex-col lg:gap-5 items-center w-min">
             <span
               className={`${titilliumWebBold.className} xl:text-[80px] lg:display-large display-medium text-gray-950 xl:leading-[124px] lg:leading-[100px]`}
             >
               05
             </span>
             <span
-              className={`${titilliumWebSemiBold.className} lg:headline-medium title-medium lg:leading-[36px] text-[#F7413D]`}
+              className={`${titilliumWebSemiBold.className} lg:headline-medium text-center title-medium lg:leading-[36px] text-[#F7413D]`}
             >
               {count.text1}
             </span>
           </div>
-          <div className="flex flex-col lg:gap-5 w-min">
+          <div className="flex flex-col items-center lg:gap-5 w-min">
             <span
               className={`${titilliumWebBold.className} xl:text-[80px] lg:display-large display-medium text-gray-950 xl:leading-[124px] lg:leading-[100px]`}
             >
               162
             </span>
             <span
-              className={`${titilliumWebSemiBold.className} lg:headline-medium title-medium lg:leading-[36px] text-[#F7413D]`}
+              className={`${titilliumWebSemiBold.className} lg:headline-medium text-center title-medium lg:leading-[36px] text-[#F7413D]`}
             >
               {count.text2}
             </span>
@@ -69,7 +69,7 @@ export default function Count({ count }: countProps) {
             <input
               type="submit"
               value={count["button-text"]}
-              className={`uppercase ${mulish.className} cursor-pointer lg:leading-[20px] bg-[#F7413D] lg:p-1 text-gray-50 lg:label-large label-medium w-1/3 shadow-xl`}
+              className={`uppercase ${mulish.className} cursor-pointer lg:leading-[20px] bg-[#904E9F] lg:p-1 text-gray-50 lg:label-large label-medium w-1/3 shadow-xl`}
             />
           </div>
         </div>

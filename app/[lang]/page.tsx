@@ -26,19 +26,19 @@ export default async function Home({
         <Header header={data.header} lang={lang} />
       </div>
       <div className="relative flex justify-center items-center mt-10">
-        <div className="md:w-3/4 w-full h-full absolute left-0 top-0 md:rounded-tr-full rounded-tr-[171px] -z-[1] bg-[#66C3CA]" />
+        <div className="md:w-3/4 w-full h-full absolute left-0 top-0 md:rounded-tr-full rounded-tr-[200px] -z-[1] bg-[#66C3CA]" />
         <Hero hero={data.hero} />
       </div>
       <div className=" flex justify-center items-center">
         <Count count={data.count} />
       </div>
-      <div className="flex justify-center items-center bg-[#E7E7E7]">
+      <div className="flex justify-center items-center from-[#ffffff] to-[#F48626] bg-gradient-to-b">
         <About about={data.about} />
       </div>
       <div className="flex justify-center items-center">
         <HowItWorks howItWorks={data["how-it-works"]} />
       </div>
-      <div className="flex justify-center items-center  to-[#F7413D] from-[#FE7977] bg-gradient-to-b">
+      <div className="flex justify-center items-center  to-[#8A449A] from-[#ffffff] bg-gradient-to-b">
         <DownloadNow downloadNow={data["download-now"]} />
       </div>
       <div className="flex justify-center items-center overflow-hidden">

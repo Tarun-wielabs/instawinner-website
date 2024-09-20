@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { stores1Icons, stores2Icons } from "@/util/images";
 import Marquee from "react-fast-marquee";
+import { titilliumWebBold } from "@/util/fonts";
 
 type storesAvailableProps = {
   storesAvailable: {
@@ -20,7 +21,9 @@ export default function StoresAvailable({
 }: storesAvailableProps) {
   return (
     <div className=" w-full h-auto flex flex-col gap-10 justify-center items-center py-16 md:px-10 px-5">
-      <span className="lg:display-medium display-small lg:leading-[52px] text-center w-full text-white">
+      <span
+        className={`${titilliumWebBold.className} lg:display-medium display-small lg:leading-[52px] text-center w-full text-white`}
+      >
         {storesAvailable["heading-count"]} <br className="md:hidden block" />{" "}
         {storesAvailable["heading-text"]}
       </span>

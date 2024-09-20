@@ -53,7 +53,7 @@ export default function Cards({ reviews }: cardsProps) {
               <Image
                 src={reviewImages[index]}
                 alt="reviewer"
-                className="md:w-auto w-16 h-auto"
+                className="md:w-20 w-16 md:h-20 h-16 rounded-full object-cover"
               />
               <span
                 className={`${titilliumWebSemiBold.className} text-gray-950 lg:headline-medium headline-small lg:leading-[36px] text-center`}

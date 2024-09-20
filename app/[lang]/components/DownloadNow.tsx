@@ -11,10 +11,10 @@ type downloadNowProps = {
 
 export default function DownloadNow({ downloadNow }: downloadNowProps) {
   return (
-    <div className="lg:w-[80%] md:w-[90%] w-full h-auto min-h-[50vh] flex flex-col justify-center gap-5 py-10 md:px-10 px-6">
+    <div className="xl:w-[80%] lg:w-[90%] w-full h-auto min-h-[50vh] flex flex-col justify-center gap-5 py-10 md:px-10 px-6">
       <span className="lg:display-medium display-small lg:leading-[64px] text-black md:w-[60%] w-full">
         <span
-          className={`${titilliumWebBlack.className} text-white lg:leading-[64px] `}
+          className={`${titilliumWebBlack.className} text-[#1BA6B0] lg:leading-[64px] `}
         >
           {downloadNow["text-styled"]}
         </span>

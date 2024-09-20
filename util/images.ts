@@ -20,7 +20,11 @@ import storesIcon5 from "@/public//icons/storesIcon5.png";
 import storesIcon6 from "@/public//icons/storesIcon6.png";
 import storesIcon7 from "@/public//icons/storesIcon7.png";
 import storesIcon8 from "@/public//icons/storesIcon8.png";
-import reviewImage1 from "@/public/Ellipse 17.png";
+import reviewImage1 from "@/public/reviewImage1.webp";
+import reviewImage2 from "@/public/reviewImage2.webp";
+import reviewImage3 from "@/public/reviewImage3.webp";
+import reviewImage4 from "@/public/reviewImage4.webp";
+
 import backIcon from "@/public/icons/back.svg";
 import forwardIcon from "@/public/icons/forward.svg";
 import facebookIcon from "@/public/icons/facebook.svg";
@@ -38,13 +42,7 @@ const howItWorksIcons = [
   howItWorksIcon5,
 ];
 
-const reviewImages = [
-  reviewImage1,
-  reviewImage1,
-  reviewImage1,
-  reviewImage1,
-  reviewImage1,
-];
+const reviewImages = [reviewImage1, reviewImage2, reviewImage3, reviewImage4];
 
 const stores1Icons = [storesIcon1, storesIcon2, storesIcon3, storesIcon4];
 

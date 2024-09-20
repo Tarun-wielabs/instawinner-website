@@ -1,10 +1,16 @@
 import Image from "next/image";
-import { mulish, titilliumWebSemiBold } from "@/util/fonts";
+import {
+  mulish,
+  titilliumWebBlack,
+  titilliumWebBold,
+  titilliumWebSemiBold,
+} from "@/util/fonts";
 import { app1, app2, howItWorksIcons } from "@/util/images";
 
 type howItWorksProps = {
   howItWorks: {
-    heading: string;
+    "heading-normal": string;
+    "heading-styled": string;
     content: {
       heading: string;
       body: string;
@@ -16,8 +22,15 @@ export default function HowItWorks({ howItWorks }: howItWorksProps) {
   return (
     <div className="lg:w-[80%] md:w-[90%] w-full h-auto flex flex-col justify-evenly lg:gap-16 gap-8 items-center md:px-10 px-5 py-16 ">
       <div className="flex flex-col items-center lg:gap-5 gap-2 md:w-[60%] w-full">
-        <span className="lg:display-medium display-small text-center lg:leading-[52px] text-gray-950">
-          {howItWorks.heading}
+        <span
+          className={`${titilliumWebBold.className} lg:display-medium display-small text-center lg:leading-[52px] text-gray-950`}
+        >
+          {howItWorks["heading-normal"]}{" "}
+          <span
+            className={`${titilliumWebBlack.className} uppercase text-[#F7413D]`}
+          >
+            {howItWorks["heading-styled"]}
+          </span>
         </span>
       </div>
       <div className="flex items-center ">

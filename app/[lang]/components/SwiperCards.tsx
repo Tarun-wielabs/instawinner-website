@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Cards from "./_Swiper/Cards";
 import { backIcon, forwardIcon } from "@/util/images";
+import { titilliumWebBold } from "@/util/fonts";
 
 type swiperCardsProps = {
   swiperCards: {
@@ -17,7 +18,9 @@ export default function SwiperCards({ swiperCards }: swiperCardsProps) {
   return (
     <div className="lg:w-[80%] md:w-[90%] w-full h-auto flex flex-col lg:gap-16 md:gap-10 gap-5 justify-center items-center md:px-10 py-10 ">
       <div className="flex flex-col items-center lg:gap-5 gap-3 md:px-0 px-5">
-        <span className="lg:display-medium display-small text-center lg:leading-[52px] text-gray-950">
+        <span
+          className={`${titilliumWebBold.className} lg:display-medium display-small text-center lg:leading-[52px] text-gray-950`}
+        >
           {swiperCards.heading}
         </span>
       </div>

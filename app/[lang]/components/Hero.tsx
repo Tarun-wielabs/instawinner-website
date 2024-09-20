@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { surprisedWoman } from "@/util/images";
-import { titilliumWebBlack, titilliumWebSemiBold } from "@/util/fonts";
+import { titilliumWebBlack } from "@/util/fonts";
 
 type heroProps = {
   hero: {
@@ -12,7 +12,7 @@ type heroProps = {
 
 export default function Hero({ hero }: heroProps) {
   return (
-    <div className="lg:w-[80%] md:w-[90%] w-full h-autos flex md:flex-row flex-col-reverse md:justify-between items-center relative md:px-10 px-5 py-10 gap-10">
+    <div className="lg:w-[80%] md:w-[90%] w-full h-auto min-h-[60vh] flex md:flex-row flex-col-reverse md:justify-between items-center relative md:px-10 px-5 py-10 gap-10">
       <div className="flex flex-col lg:gap-5 gap-3">
         <span
           className={`${titilliumWebBlack.className} lg:display-large display-medium  lg:leading-[64px] leading-tight text-black`}
@@ -22,9 +22,7 @@ export default function Hero({ hero }: heroProps) {
           </span>{" "}
           {hero["heading-normal"]}
         </span>
-        <span
-          className={`${titilliumWebSemiBold.className} lg:title-large title-medium  text-black lg:leading-[28px]`}
-        >
+        <span className={` lg:headline-small title-large text-black `}>
           {hero.body}
         </span>
       </div>

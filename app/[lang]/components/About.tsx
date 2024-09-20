@@ -38,7 +38,7 @@ export default function About({ about }: aboutProps) {
           {about.heading}
         </span>
         <span
-          className={` ${mulish.className} font-normal lg:body-large body-medium lg:leading-[28px] text-gray-500`}
+          className={` ${mulish.className} font-normal lg:body-large body-medium lg:leading-[28px] text-gray-950`}
         >
           {about["sub-heading"]}
         </span>
@@ -51,7 +51,7 @@ export default function About({ about }: aboutProps) {
               {about.section1.heading}
             </span>
             <span
-              className={` ${mulish.className} font-normal lg:body-large body-medium lg:leading-[28px] text-gray-500`}
+              className={` ${mulish.className} font-normal lg:body-large body-medium lg:leading-[28px] text-gray-950`}
             >
               {about.section1.body}
             </span>
@@ -64,17 +64,12 @@ export default function About({ about }: aboutProps) {
               {about.section2.heading}
             </span>
             <span
-              className={` ${mulish.className} font-normal lg:body-large body-medium  lg:leading-[28px] text-gray-500`}
+              className={` ${mulish.className} font-normal lg:body-large body-medium  lg:leading-[28px] text-gray-950`}
             >
               {about.section2.body}
             </span>
           </div>
         </div>
-        <button
-          className={` mt-5 border w-fit border-[#F7413D] text-[#F7413D] bg-transparent px-[24px] py-[12px] capitalize ${mulish.className} font-semibold label-large lg:leading-[20px] tracking-tight`}
-        >
-          {about["button-text"]}
-        </button>
       </div>
       <Image
         src={smilingGuy}
