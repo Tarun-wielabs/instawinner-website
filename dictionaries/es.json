@@ -18,20 +18,30 @@
   },
   "about": {
     "title": "Acerca de",
-    "heading": "¡CON INSTAWIN, SIEMPRE GANAS!",
-    "sub-heading": "Cuando compras productos participantes en tu tienda favorita, ¡siempre ganarás uno de los premios! ¡Solo escanea tu recibo después de comprar el producto o productos participantes!",
+    "heading-normal-1": "¡Con ",
+    "heading-styled-1": {
+      "one": "Insta",
+      "two": "Win"
+    },
+    "heading-normal-2": ", siempre ",
+    "heading-styled-2": "GANAS",
+    "sub-heading": "Cuando compras productos participantes en tu tienda favorita, ¡siempre ganarás uno de los dos tipos de premios! ¡Solo escanea tu recibo después de comprar el producto o productos participantes! Todos los premios son asignados al azar. Todos los premios son asignados al azar.",
     "section1": {
-      "heading": "Premios al instante",
-      "body": "Escanea tu recibo de los productos participantes en la app de InstaWin y sabrás de inmediato si has ganado uno de los premios instantáneos."
+      "heading": "Tipo #1: PREMIOS AL INSTANTE",
+      "body-normal-1": "Escanea tu recibo de los productos participantes en la app de ",
+      "body-bold": "InstaWin",
+      "body-normal-2": " y sabrás de inmediato si has ganado uno de los premios instantáneos."
     },
     "section2": {
-      "heading": "Premios por sorteo",
-      "body": "Escanea tu recibo de los productos participantes en la app de InstaWin y descubre al instante si has ganado un boleto para participar en el sorteo de premios, que se llevará a cabo en la fecha indicada en cada promoción."
+      "heading": "Tipo #2: PREMIOS POR SORTEO",
+      "body-normal-1": "Escanea tu recibo de los productos participantes en la app de ",
+      "body-bold": "InstaWin",
+      "body-normal-2": " y descubre al instante si has ganado un boleto digital para participar en el sorteo de premios, que se llevará a cabo en la fecha indicada en cada promoción."
     },
     "button-text": "¡Descarga ahora!"
   },
   "how-it-works": {
-    "heading-normal": "Es la forma más fáscil para participar en promciones y ",
+    "heading-normal": "Es la forma más fácil para participar en promociones y ",
     "heading-styled": "ganar",
     "content": [
       {
@@ -52,7 +62,7 @@
       },
       {
         "heading": "5 . ¡Rasca y GANA!",
-        "body": "Al rascar la pantalla con tu dedo, descubrirás al instante qué premio has ganado. Podrías recibir un premio inmediato o un boleto para participar en una rifa con la oportunidad de ganar. Los premios se asignan al azar."
+        "body": "Al rascar la pantalla con tu dedo, descubrirás al instante qué premio has ganado. Podrías recibir un premio inmediato o un boleto digital para participar en una rifa con la oportunidad de ganar premios increíbles. Los premios se asignan al azar."
       }
     ]
   },

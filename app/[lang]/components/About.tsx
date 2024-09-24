@@ -2,6 +2,7 @@ import Image from "next/image";
 import { cube, smilingGuy } from "@/util/images";
 import {
   mulish,
+  titilliumWebBlack,
   titilliumWebRegular,
   titilliumWebSemiBold,
 } from "@/util/fonts";
@@ -9,15 +10,25 @@ import {
 type aboutProps = {
   about: {
     title: string;
-    heading: string;
+    "heading-normal-1": string;
+    "heading-styled-1": {
+      one: string;
+      two: string;
+    };
+    "heading-normal-2": string;
+    "heading-styled-2": string;
     "sub-heading": string;
     section1: {
       heading: string;
-      body: string;
+      "body-normal-1": string;
+      "body-bold": string;
+      "body-normal-2": string;
     };
     section2: {
       heading: string;
-      body: string;
+      "body-normal-1": string;
+      "body-bold": string;
+      "body-normal-2": string;
     };
     "button-text": string;
   };
@@ -35,7 +46,22 @@ export default function About({ about }: aboutProps) {
         <span
           className={` ${titilliumWebRegular.className} lg:display-medium display-small lg:leading-[52px] text-gray-950`}
         >
-          {about.heading}
+          {about["heading-normal-1"]}
+          <span className={`${titilliumWebSemiBold.className}`}>
+            {about["heading-styled-1"].one}
+          </span>
+          <span
+            className={`${titilliumWebBlack.className} uppercase text-[#F7413D]`}
+          >
+            {about["heading-styled-1"].two}
+          </span>
+          {about["heading-normal-2"]}{" "}
+          <span
+            className={`${titilliumWebBlack.className} uppercase text-[#F7413D]`}
+          >
+            {about["heading-styled-2"]}
+          </span>
+          !
         </span>
         <span
           className={` ${mulish.className} font-normal lg:body-large body-medium lg:leading-[28px] text-gray-950`}
@@ -53,7 +79,9 @@ export default function About({ about }: aboutProps) {
             <span
               className={` ${mulish.className} font-normal lg:body-large body-medium lg:leading-[28px] text-gray-950`}
             >
-              {about.section1.body}
+              {about.section1["body-normal-1"]}{" "}
+              <span className="font-bold">{about.section1["body-bold"]}</span>
+              {about.section1["body-normal-2"]}
             </span>
           </div>
           <div className="flex flex-col md:gap-5 gap-3 sm:w-5/12">
@@ -66,7 +94,9 @@ export default function About({ about }: aboutProps) {
             <span
               className={` ${mulish.className} font-normal lg:body-large body-medium  lg:leading-[28px] text-gray-950`}
             >
-              {about.section2.body}
+              {about.section2["body-normal-1"]}{" "}
+              <span className="font-bold">{about.section2["body-bold"]}</span>
+              {about.section2["body-normal-2"]}
             </span>
           </div>
         </div>

@@ -18,15 +18,25 @@
   },
   "about": {
     "title": "About",
-    "heading": "With InstaWin, you always win!",
-    "sub-heading": "When you purchase participating products at your favorite store, you'll always win one of the prizes! Just scan your receipt after buying the participating product or products!",
+    "heading-normal-1": "With ",
+    "heading-styled-1": {
+      "one": "Insta",
+      "two": "Win"
+    },
+    "heading-normal-2": ", you always ",
+    "heading-styled-2": "Win",
+    "sub-heading": "When you purchase participating products at your favorite store, you'll always win one of the two type of prizes! Just scan your receipt after buying the participating product or products! All prizes are awarded randomly.",
     "section1": {
-      "heading": "Instant prices",
-      "body": "Scan your receipt for participating products in the InstaWin app, and you'll know immediately if you've won one of the instant prizes."
+      "heading": "Type 1: INSTANT PRICES",
+      "body-normal-1": "Scan your receipt for participating products in the ",
+      "body-bold": "InstaWin",
+      "body-normal-2": " app, and you'll know immediately if you've won one of the instant prizes."
     },
     "section2": {
       "heading": "Raffle prizes",
-      "body": "Scan your receipt for participating products in the InstaWin app and find out instantly if you've won a ticket to enter the prize raffle, which will take place on the date specified in each promotion."
+      "body-normal-1": "Scan your receipt for participating products in the ",
+      "body-bold": "InstaWin",
+      "body-normal-2": " app and find out instantly if you've won a digital ticket to enter the prize raffle, which will take place on the date specified in each promotion."
     },
     "button-text": "Download Now"
   },
@@ -52,7 +62,7 @@
       },
       {
         "heading": "5 . Scratch and WIN!",
-        "body": "By scratching the screen with your finger, you'll instantly discover what prize you've won. You could receive an immediate prize or a raffle ticket to participate in a raffle for a chance to win. The prizes are randomly assigned."
+        "body": "By scratching the screen with your finger, you'll instantly discover what prize you've won. You could receive an immediate prize or a digital raffle ticket to participate in a raffle for a chance to win awesome prices. The prizes are randomly assigned."
       }
     ]
   },

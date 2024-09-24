@@ -47,16 +47,19 @@ export default function LastSection({ lastSection }: lastSectionProps) {
         <PlayStoreButton scheme="dark" />
       </div>
       <div className="flex md:gap-5 flex-wrap gap-3 items-center mt-5">
-        <Link href="" target="_blank">
+        <Link
+          href="https://www.facebook.com/profile.php?id=61565743185309"
+          target="_blank"
+        >
           <Image src={facebookIcon} alt="facebook" />
         </Link>
-        <Link href="" target="_blank">
+        <Link href="https://www.instagram.com/instawin.app" target="_blank">
           <Image src={instagramIcon} alt="instagram" />
         </Link>
-        <Link href="" target="_blank">
+        <Link href="https://www.linkedin.com/company/instawin/" target="_blank">
           <Image src={linkedinIcon} alt="linkedin" />
         </Link>
-        <Link href="" target="_blank">
+        <Link href="https://x.com/IntaWinApp" target="_blank">
           <Image src={xIcon} alt="x" />
         </Link>
       </div>
